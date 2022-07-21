@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap);
+:root {
+  --bg-color: #FBE5D6;
+  --primary-color: #E726B5;
+  --secondaey-color: salmon;
+  --white: white;
+  --black: black;
+}
+
+* {
+  font-size: 20px;
+  font-family: "Architects Daughter", serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0 25px;
+  padding: 25px 0;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+h1 {
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  color: grey;
+  margin: 0;
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=global.css.map */
