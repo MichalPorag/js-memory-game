@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Card from "./components/card/Card";
+import qaList from './qa.json';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p>Click Card to Flip</p>
+        <ul className="cards">
+            {
+                qaList.map((qa, i) => {
+                    return <Card
+                        key={i}
+                        q={qa.q}
+                        a={qa.a}
+                        i={i}
+                    />
+                })
+            }
+        </ul>
     </div>
   );
 }
