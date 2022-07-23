@@ -12,8 +12,8 @@
     "a": "Immediately Invoked Function Expression"
   },
   {
-    "q": "What is Currying?",
-    "a": "???"
+    "q": "What is the different between adding get to obejct instead of using defineProperty?",
+    "a": "When using get the property will be defined on the instance's prototype, while using Object.defineProperty() the property will be defined on the instance it is applied to."
   },
   {
     "q": "What is Currying?",
